@@ -1,4 +1,4 @@
-# AdTech Portfolio - Marketing Automation for Google Ads 🚀
+# AdTech Portfolio - Marketing Automation for Google Ads
 
 A comprehensive **Python automation suite** for Google Ads budget monitoring, performance optimization, and analytics. Perfect for agencies, e-commerce businesses, and marketing teams.
 
@@ -8,35 +8,35 @@ A comprehensive **Python automation suite** for Google Ads budget monitoring, pe
 
 ---
 
-## ✨ Features
+## Features
 
 ### 📊 Budget Monitoring
-- **Real-time budget tracking** - Monitor daily spend vs. budget
-- **Automated alerts** - Get notified when spending exceeds thresholds
-- **Campaign-level insights** - See performance breakdown by campaign
-- **Pace forecasting** - Know if you'll overspend or underspend
+- **Real-time budget tracking**: Monitor daily spend vs. budget
+- **Automated alerts**: Get notified when spending exceeds thresholds
+- **Campaign-level insights**: See performance breakdown by campaign
+- **Pace forecasting**: Know if you'll overspend or underspend
 
-### 🎯 Bid Optimization
-- **ROAS-based optimization** - Automatically adjust bids based on return on ad spend
-- **CPA enforcement** - Maintain target customer acquisition cost
-- **Keyword pausing** - Stop wasting money on underperforming keywords
-- **Dry-run mode** - Test changes before applying them live
+### Bid Optimization
+- **ROAS-based optimization**: Automatically adjust bids based on return on ad spend
+- **CPA enforcement**: Maintain target customer acquisition cost
+- **Keyword pausing**: Stop wasting money on underperforming keywords
+- **Dry-run mode**: Test changes before applying them live
 
-### 📈 Analytics & Reporting
-- **BigQuery integration** - Analyze campaigns in SQL
-- **50+ pre-built SQL queries** - Ready-to-run analytics
-- **Automated reports** - Daily/weekly performance summaries
-- **Slack notifications** - Get alerts directly in Slack
+### Analytics & Reporting
+- **BigQuery integration**: Analyze campaigns in SQL
+- **50+ pre-built SQL queries**: Ready-to-run analytics
+- **Automated reports**: Daily/weekly performance summaries
+- **Slack notifications**: Get alerts directly in Slack
 
-### 🎨 Dashboards
-- **Looker Studio templates** - Professional visualizations
-- **Real-time metrics** - ROAS, CPA, CTR, conversion trends
-- **Campaign comparison** - Compare performance across campaigns
-- **Budget efficiency** - Track ROI and spending efficiency
+### Dashboards
+- **Looker Studio templates**: Professional visualizations
+- **Real-time metrics**: ROAS, CPA, CTR, conversion trends
+- **Campaign comparison**: Compare performance across campaigns
+- **Budget efficiency**: Track ROI and spending efficiency
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -100,7 +100,7 @@ python scripts/budget_monitor.py --config config.yaml
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 adtech-portfolio/
@@ -125,7 +125,7 @@ adtech-portfolio/
 
 ---
 
-## 📊 Key Scripts
+## Key Scripts
 
 ### Budget Monitor (`budget_monitor.py`)
 Tracks daily budget spend and alerts on overspending.
@@ -136,11 +136,11 @@ python scripts/budget_monitor.py --config config.yaml --once
 
 # Output:
 # ============================================================
-# 📊 Daily Budget Report - 2026-07-25
+# Daily Budget Report - 2026-07-25
 # ============================================================
 # Total Spend: $4,234.56 / $15,000.00
 # Budget Pace: 28.2%
-# Status: 🟩 ON_TRACK
+# Status: ON_TRACK
 ```
 
 **Features:**
@@ -165,7 +165,7 @@ python scripts/automated_bidding_strategy.py --config config.yaml
 
 ---
 
-## 📈 SQL Analytics Queries
+## SQL Analytics Queries
 
 Pre-built queries for BigQuery analysis:
 
@@ -190,7 +190,7 @@ ORDER BY roas DESC;
 
 ---
 
-## 🎨 Dashboards
+## Dashboards
 
 Setup professional Looker Studio dashboards:
 
@@ -213,7 +213,7 @@ Setup professional Looker Studio dashboards:
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Run automated tests:
 
@@ -229,15 +229,15 @@ pytest tests/test_budget_monitor.py -v
 ```
 
 **Test Coverage:**
-- ✅ Budget calculations
-- ✅ Bid optimization logic
-- ✅ Data validation
-- ✅ Configuration parsing
-- ✅ API integration
+- Budget calculations
+- Bid optimization logic
+- Data validation
+- Configuration parsing
+- API integration
 
 ---
 
-## 🔄 GitHub Actions CI/CD
+## GitHub Actions CI/CD
 
 Automated testing on every push:
 
@@ -251,24 +251,24 @@ View results: [Actions tab](https://github.com/VimeshikaShri/adtech-portfolio/ac
 
 ---
 
-## 🔐 Security & Best Practices
+## Security & Best Practices
 
 ### Credential Management
-- ✅ Credentials stored in `config.yaml` (not in git)
-- ✅ Use `.gitignore` to prevent accidental commits
-- ✅ Example templates provided in `config.example.yaml`
+- Credentials stored in `config.yaml` (not in git)
+- Use `.gitignore` to prevent accidental commits
+- Example templates provided in `config.example.yaml`
 
 ### API Security
-- ✅ OAuth 2.0 authentication
-- ✅ Refresh token management
-- ✅ Rate limit handling
-- ✅ Error logging
+- OAuth 2.0 authentication
+- Refresh token management
+- Rate limit handling
+- Error logging
 
 ### Code Quality
-- ✅ Type hints throughout
-- ✅ Comprehensive error handling
-- ✅ Unit test coverage
-- ✅ Code documentation
+- Type hints throughout
+- Comprehensive error handling
+- Unit test coverage
+- Code documentation
 
 ---
 
@@ -281,7 +281,7 @@ View results: [Actions tab](https://github.com/VimeshikaShri/adtech-portfolio/ac
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please:
 
@@ -292,14 +292,14 @@ Contributions welcome! Please:
 
 ---
 
-## 📞 Support
+## Support
 
 - **Issues:** [GitHub Issues](https://github.com/VimeshikaShri/adtech-portfolio/issues)
 - **Discussions:** [GitHub Discussions](https://github.com/VimeshikaShri/adtech-portfolio/discussions)
 
 ---
 
-## 📚 Learning Resources
+## Learning Resources
 
 - [Google Ads API Docs](https://developers.google.com/google-ads/api)
 - [BigQuery Guide](https://cloud.google.com/bigquery/docs)
@@ -307,7 +307,7 @@ Contributions welcome! Please:
 
 ---
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 Average performance across managed accounts:
 
@@ -320,7 +320,7 @@ Average performance across managed accounts:
 
 ---
 
-## 🎯 Roadmap
+## Roadmap
 
 - [ ] Machine learning bid optimization
 - [ ] Multi-channel attribution
@@ -330,13 +330,13 @@ Average performance across managed accounts:
 
 ---
 
-## 📜 License
+## License
 
 MIT License - see [LICENSE](./LICENSE) file
 
 ---
 
-## 👤 Author
+## Author
 
 **Vimeshika Shri**
 - GitHub: [@VimeshikaShri](https://github.com/VimeshikaShri)
@@ -344,7 +344,7 @@ MIT License - see [LICENSE](./LICENSE) file
 
 ---
 
-## ⭐ Star History
+## Star History
 
 If this project helps you, please consider giving it a star! ⭐
 
