@@ -8,11 +8,11 @@ A portfolio-ready collection of five practical advertising measurement and optim
 
 ## Projects
 
-1. Google Ads conversion tracking — consent-aware purchase measurement
-2. GA4 + GTM implementation — ecommerce event architecture
-3. Looker Studio dashboard — executive marketing performance reporting
-4. BigQuery marketing analytics — channel attribution and cohort analysis
-5. Google Ads API budget pacer — daily spend monitoring and alerts
+1. Google Ads conversion tracking: Consent-aware purchase measurement
+2. GA4 + GTM implementation: Ecommerce event architecture
+3. Looker Studio dashboard: Executive marketing performance reporting
+4. BigQuery marketing analytics: Channel attribution and cohort analysis
+5. Google Ads API budget pacer: Daily spend monitoring and alerts
 
 ## Results at a glance
 
@@ -29,7 +29,3 @@ A portfolio-ready collection of five practical advertising measurement and optim
 ## Conclusion
 
 This portfolio demonstrates an end-to-end AdTech workflow: collect trustworthy conversion signals, structure them for analysis, turn them into accessible reporting, and automate the actions that keep spend aligned with plan. Together, these projects show how measurement, analytics, and activation can give marketing teams clearer performance visibility and more confident budget decisions.
-
-## How to present this work
-
-Replace the sample metrics, company name, and links with real client-approved data. During an interview, lead with the business question, explain the measurement design, then show the validation and optimization loop.
