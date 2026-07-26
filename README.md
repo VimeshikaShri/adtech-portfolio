@@ -340,14 +340,4 @@ MIT License - see [LICENSE](./LICENSE) file
 
 **Vimeshika Shri**
 - GitHub: [@VimeshikaShri](https://github.com/VimeshikaShri)
-- Email: vimeshika.balamurali@gmail.com
-
----
-
-## Star History
-
-If this project helps you, please consider giving it a star! ⭐
-
----
-
-**Built with ❤️ for Google Ads automation**
+- <small>Email: vimeshika.balamurali@gmail.com</small>
