@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A portfolio of practical AdTech, measurement, analytics, and automation work." />
+    <title>Vimeshika Shri — AdTech Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="topbar shell">
+      <a class="brand" href="#top" aria-label="Vimeshika Shri home" data-vimeshika-label="Vimeshika Shri home"><span></span> VS / ADTECH</a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Selected work</a>
+        <a href="#approach">Approach</a>
+        <a href="results.html">Results</a>
+        <a href="mailto:vimeshika.balamurali@gmail.com">Contact ↗</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero shell">
+        <p class="eyebrow">Measurement · Media analytics · Automation</p>
+        <h1>Making paid media<br /><em>measurable</em> and actionable.</h1>
+        <div class="hero-foot">
+          <p>I build reliable marketing data systems—from a clean conversion event to the dashboard and budget decision it enables.</p>
+          <a class="round-link" href="#work">Explore projects <b>↓</b></a>
+        </div>
+        <div class="signal-grid" aria-label="Core capabilities">
+          <div><span>01</span><strong>Instrumentation</strong><small>GA4, GTM, Consent Mode</small></div>
+          <div><span>02</span><strong>Analytics</strong><small>BigQuery, SQL, Looker Studio</small></div>
+          <div><span>03</span><strong>Activation</strong><small>Google Ads, APIs, pacing</small></div>
+        </div>
+      </section>
+
+      <section class="work shell" id="work">
+        <div class="section-head">
+          <p class="eyebrow">01 / Selected work</p>
+          <p class="intro">Five end-to-end builds that connect media investment to business outcomes. Metrics below illustrate the kind of impact each system is designed to surface.</p>
+        </div>
+
+        <article class="project project-featured">
+          <div class="project-number">01</div>
+          <div class="project-copy">
+            <p class="tag">Google Ads · GTM · GA4</p>
+            <h2>Consent-aware<br />conversion tracking</h2>
+            <p class="description">A robust purchase measurement setup for a DTC ecommerce brand. The design keeps ad-platform signals useful while respecting regional consent choices.</p>
+            <a href="projects/01_google_ads_conversion_tracking.md">Read implementation notes <span>↗</span></a>
+          </div>
+          <div class="visual visual-funnel" aria-label="Conversion measurement funnel visualization">
+            <div class="viz-label">EVENT QUALITY</div>
+            <div class="funnel-row"><i></i><b>page_view</b><span>100%</span></div>
+            <div class="funnel-row"><i></i><b>add_to_cart</b><span>18.4%</span></div>
+            <div class="funnel-row"><i></i><b>begin_checkout</b><span>10.9%</span></div>
+            <div class="funnel-row active"><i></i><b>purchase</b><span>4.2%</span></div>
+            <p>Server-side deduplication<br />+ enhanced conversions</p>
+          </div>
+          <div class="project-result"><span>Signal coverage</span><strong>94.8%</strong><small>validated purchases</small></div>
+        </article>
+
+        <article class="project project-dark">
+          <div class="project-number">02</div>
+          <div class="project-copy">
+            <p class="tag">GA4 · GTM · Data layer</p>
+            <h2>Ecommerce event<br />architecture</h2>
+            <p class="description">A structured GA4 implementation that turns browsing and checkout behavior into analysis-ready events, parameters, and audiences.</p>
+            <a href="projects/02_ga4_gtm_ecommerce.md">Read implementation notes <span>↗</span></a>
+          </div>
+          <div class="visual visual-events" aria-label="Ecommerce events architecture visualization">
+            <div class="flow"><span>dataLayer</span><i>→</i><span>GTM</span><i>→</i><span>GA4</span></div>
+            <div class="event-chip c1">view_item</div><div class="event-chip c2">select_item</div>
+            <div class="event-chip c3">add_to_cart</div><div class="event-chip c4">purchase</div>
+            <div class="event-chip c5">refund</div>
+          </div>
+          <div class="project-result"><span>Core events</span><strong>14</strong><small>fully documented</small></div>
+        </article>
+
+        <article class="project project-light">
+          <div class="project-number">03</div>
+          <div class="project-copy">
+            <p class="tag">Looker Studio · GA4 · Google Ads</p>
+            <h2>Marketing command<br />center</h2>
+            <p class="description">A decision-first dashboard for weekly channel performance reviews, built with blended spend, conversion, and revenue data.</p>
+            <a href="projects/03_looker_marketing_dashboard.md">Read dashboard spec <span>↗</span></a>
+          </div>
+          <div class="visual visual-chart" aria-label="Marketing dashboard visualization">
+            <div class="viz-label">WEEKLY ROAS</div>
+            <div class="chart-bars"><i style="height:35%"></i><i style="height:48%"></i><i style="height:41%"></i><i style="height:72%"></i><i style="height:64%"></i><i style="height:89%"></i><i style="height:76%"></i></div>
+            <div class="chart-axis"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+            <div class="chart-kpi"><span>Blended ROAS</span><b>3.41×</b><em>+18.6%</em></div>
+          </div>
+          <div class="project-result"><span>Reporting time</span><strong>−6h</strong><small>per week saved</small></div>
+        </article>
+
+        <article class="project project-sand">
+          <div class="project-number">04</div>
+          <div class="project-copy">
+            <p class="tag">BigQuery · SQL · GA4 export</p>
+            <h2>Channel attribution<br />and cohorts</h2>
+            <p class="description">Reusable BigQuery models that join advertising touchpoints with ecommerce revenue to compare acquisition quality over time.</p>
+            <a href="projects/04_bigquery_marketing_analytics.sql">View sample SQL <span>↗</span></a>
+          </div>
+          <div class="visual visual-sql" aria-label="SQL data model visualization">
+            <div class="sql-title"><i></i> TRANSFORMATION</div>
+            <code>WITH <b>sessions</b> AS (</code>
+            <code>&nbsp;&nbsp;SELECT source, medium,</code>
+            <code>&nbsp;&nbsp;&nbsp;&nbsp;SUM(revenue) <b>AS</b> revenue</code>
+            <code>)</code>
+            <div class="sql-output"><span>channel</span><span>cac</span><span>l30 roas</span><b>paid search</b><b>$42.18</b><b>3.86×</b></div>
+          </div>
+          <div class="project-result"><span>Data latency</span><strong>&lt; 12h</strong><small>from event to insight</small></div>
+        </article>
+
+        <article class="project project-ink">
+          <div class="project-number">05</div>
+          <div class="project-copy">
+            <p class="tag">Python · Google Ads API · Slack</p>
+            <h2>Budget pacing<br />automation</h2>
+            <p class="description">A Python service that compares actual against planned spend each morning, flags exceptions, and creates a clear action queue for media teams.</p>
+            <a href="projects/05_google_ads_budget_pacer.py">View Python sample <span>↗</span></a>
+          </div>
+          <div class="visual visual-pacing" aria-label="Budget pacing visualization">
+            <div class="pace-head"><span>JULY</span><b>$78,300 / $92,000</b></div>
+            <div class="pace-track"><i></i><b></b></div>
+            <div class="pace-legend"><span><i></i> Actual</span><span><i></i> Planned</span></div>
+            <div class="alert"><b>!</b><span>2 campaigns need attention</span></div>
+          </div>
+          <div class="project-result"><span>Pacing variance</span><strong>±3%</strong><small>controlled to plan</small></div>
+        </article>
+      </section>
+
+      <section class="approach shell" id="approach">
+        <p class="eyebrow">02 / How I work</p>
+        <div class="approach-grid">
+          <h2>Good media decisions start with trustworthy inputs.</h2>
+          <ol>
+            <li><span>01</span><div><b>Frame the decision</b><p>Identify who needs to act, which question they need answered, and the metric that earns trust.</p></div></li>
+            <li><span>02</span><div><b>Design the signal</b><p>Define events, parameters, identifiers, consent behavior, and validation criteria before implementation.</p></div></li>
+            <li><span>03</span><div><b>Make it usable</b><p>Ship a documented dashboard, query, or automation with ownership and a simple operating cadence.</p></div></li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="shell">
+      <p>Available for analytics & measurement projects.</p>
+      <p><a href="results.html">View project results↗ </a>
+      <a href="privacy-policy.html">Privacy Policy↗</a></p>
+      <p><small>© 2026 Vimeshika Shri</small></p>
+    </footer>
+  </body>
+</html>

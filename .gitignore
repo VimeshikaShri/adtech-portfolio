@@ -1,0 +1,14 @@
+# Credentials - NEVER commit these!
+config.yaml
+google-ads.yaml
+client_secret_*.json
+get_refresh_token.py
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# OS
+.DS_Store
