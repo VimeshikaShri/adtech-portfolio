@@ -1,0 +1,15 @@
+# Copy this file to config.yaml and fill in YOUR credentials
+google_ads:
+  developer_token: "YOUR_DEVELOPER_TOKEN_HERE"
+  client_id: "YOUR_CLIENT_ID_HERE"
+  client_secret: "YOUR_CLIENT_SECRET_HERE"
+  refresh_token: "YOUR_REFRESH_TOKEN_HERE"
+  customer_id: "YOUR_CUSTOMER_ID_HERE"
+
+bidding_strategy:
+  daily_budget_usd: 15000.00
+  roas_target: 3.5
+  cpa_target: 12.50
+
+slack:
+  enabled: false
