@@ -272,15 +272,6 @@ View results: [Actions tab](https://github.com/VimeshikaShri/adtech-portfolio/ac
 
 ---
 
-## 📖 Documentation
-
-- **[Setup Guide](./docs/INSTALLATION.md)** - Detailed installation & configuration
-- **[Dashboard Setup](./dashboards/DASHBOARD_SETUP.md)** - Looker Studio guide
-- **[API Reference](./docs/API_REFERENCE.md)** - Script documentation
-- **[FAQ](./docs/FAQ.md)** - Common questions
-
----
-
 ## Contributing
 
 Contributions welcome! Please:
@@ -289,13 +280,6 @@ Contributions welcome! Please:
 2. Create a feature branch
 3. Add tests for new features
 4. Submit a pull request
-
----
-
-## Support
-
-- **Issues:** [GitHub Issues](https://github.com/VimeshikaShri/adtech-portfolio/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/VimeshikaShri/adtech-portfolio/discussions)
 
 ---
 
